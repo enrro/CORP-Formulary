@@ -3,56 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Custom Parameters</title>
-    <style type="text/css">
-        input, textarea {
-            padding: 9px;
-            border: solid 1px #E5E5E5;
-            outline: 0;
-            font: normal 13px/100% Verdana, Tahoma, sans-serif;
-            width: 200px;
-            background: #FFFFFF;
-        }
-
-        textarea {
-            width: 400px;
-            max-width: 400px;
-            height: 150px;
-            line-height: 150%;
-        }
-
-        input:hover, textarea:hover,
-        input:focus, textarea:focus {
-            border-color: #C9C9C9;
-        }
-
-        .form label {
-            margin-left: 10px;
-            color: #999999;
-        }
-
-        .submit input {
-            width: auto;
-            padding: 9px 15px;
-            background: #617798;
-            border: 0;
-            font-size: 14px;
-            color: #FFFFFF;
-        }
-
-        table{
-            box-shadow: rgba(0,0,0, 0.6) 0px 0px 8px;
-            -moz-box-shadow: rgba(0,0,0, 0.6) 0px 0px 8px;
-            -webkit-box-shadow: rgba(0,0,0, 0.6) 0px 0px 8px;
-            padding:30px 15px;
-            background:#FFFFFF;
-            border-radius:5px;
-            width:100%;
-            font-family:arial;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
     <table>
         <tbody>
             <p class="name">
@@ -64,7 +17,7 @@
                     <input type="text" name="name" id="name"/>
                 </td>
                 <td>
-
+                    <label for="name">Bussiness Days of ME (Default 3 days)</label>
                 </td>
             </tr>
             </p>
@@ -76,20 +29,23 @@
                 <td>
                     <input type="text" name="email" id="email">
                 </td>
+                <td>
+                    <label for="name">Bussiness Days of ME (Default 5 days)</label>
+                </td>
             </tr>
             </p>
         </tbody>
     </table>
-    <form class="form">
 
-
-        <p class="web">
-            <input type="text" name="web" id="web"/>
-            <label for="web">Website</label>
-        </p>
+    <table>
+    <tr>
+        <td>
+    s
+        </td>
+    </tr>
+    </table>
         <p class="submit">
             <input type="submit" value="Send"/>
         </p>
-    </form>
 </body>
 </html>
