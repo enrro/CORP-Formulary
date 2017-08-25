@@ -33,10 +33,18 @@ table{
     box-shadow: rgba(0,0,0, 0.6) 0px 0px 8px;
     -moz-box-shadow: rgba(0,0,0, 0.6) 0px 0px 8px;
     -webkit-box-shadow: rgba(0,0,0, 0.6) 0px 0px 8px;
-    padding:30px 15px;
+    padding:5px 15px 30px;
     margin-bottom: 20px;
     background:#FFFFFF;
     border-radius:5px;
     width:100%;
     font-family:arial;
+}
+
+.inside{
+    width:50%;
+}
+.column{
+    float: left;
+    width: 33%;
 }

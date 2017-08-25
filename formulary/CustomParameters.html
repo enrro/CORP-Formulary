@@ -6,46 +6,160 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<h1>Custom parameters</h1>
     <table>
-        <tbody>
-            <p class="name">
+        <col width=20%>
             <tr>
                 <td>
-                    <label for="name">Name</label>
+                    <p>
+                        <b>Automatic Process Execution</b>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Start file pick upprocess after</label>
                 </td>
                 <td>
                     <input type="text" name="name" id="name"/>
-                </td>
-                <td>
                     <label for="name">Bussiness Days of ME (Default 3 days)</label>
+
                 </td>
             </tr>
-            </p>
-            <p class="email">
             <tr>
                 <td>
-                    <label for="email">E-mail</label>
+                    <label for="email">Stop file pick up process after</label>
                 </td>
                 <td>
                     <input type="text" name="email" id="email">
-                </td>
-                <td>
                     <label for="name">Bussiness Days of ME (Default 5 days)</label>
                 </td>
             </tr>
-            </p>
-        </tbody>
+            <tr>
+                <td>
+                    <label for="email">Auto approve request after</label>
+                </td>
+                <td>
+                    <input type="text" name="email" id="email">
+                    <label for="name">Hours of creation (default 24 hours)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Send approval remminder after</label>
+                </td>
+                <td>
+                    <input>
+                    <label>Hours of submit</label>
+                </td>
+            </tr>
     </table>
 
+    <!--Second table -->
     <table>
     <tr>
+        <col width=20%>
+        <tr>
+            <td>
+                <p>
+                    <b>Automatic Process Execution</b>
+                </p>
+            </td>
+        </tr>
         <td>
-    s
+            <tr>
+                <td>
+                    <label for="name">Source path 1</label>
+                </td>
+                <td>
+                    <input type="text" name="name" id="sourcepath1"/>
+                </td>
+                <td>
+                    <label>User</label>
+                </td>
+                <td>
+                    <input type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Source path 2</label>
+                </td>
+                <td>
+                    <input type="text" id="sourcepath2"/>
+                </td>
+                <td>
+                    <label>Password</label>
+                </td>
+                <td>
+                    <input type="password"/>
+                </td>
+            </tr>
         </td>
     </tr>
     </table>
-        <p class="submit">
-            <input type="submit" value="Send"/>
-        </p>
+    <!--Third table -->
+    <table>
+        <tr>
+            <col width=20%>
+        <tr>
+            <td>
+                FTP File transfer (output file)
+            </td>
+            <td>
+                    <input type="checkbox"/>
+            </td>
+            <td>
+                <label>Shared folder</label>
+            </td>
+            <td>
+                for share folder FTP is grayed out
+                <input type="checkbox"/>
+            </td>
+        </tr>
+        <td>
+            <tr>
+                <td>
+                    <label for="name">ftp</label>
+                </td>
+                <td>
+                    <input type="text" name="name" id="ftp"/>
+                </td>
+                <td>
+                    <label>User</label>
+                </td>
+                <td>
+                    <input type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Destination path</label>
+                </td>
+                <td>
+                    <input type="text" id="sourcepath2"/>
+                </td>
+                <td>
+                    <label>Password</label>
+                </td>
+                <td>
+                    <input type="password"/>
+                </td>
+            </tr>
+        </td>
+        </tr>
+    </table>
+    <table>
+        <td>
+            <p class="submit">
+                <input type="submit" value="Send"/>
+            </p>
+        </td>
+        <td>
+            <p class="submit">
+                <input type="submit" value="Cancel"/>
+            </p>
+        </td>
+    </table>
 </body>
 </html>
